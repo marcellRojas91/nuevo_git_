@@ -1,13 +1,5 @@
-def suma(a, b, c = 0, d = 0) : 
-    if c != 0 and d != 0 : 
-        return a + b + c + d  
-    
-    elif c != 0 : 
-        return a + b + c 
+def sumas(*num) : 
+    return sum(num) 
 
-    else : 
-        return a + b 
-    
-
-print(suma(2, 4, 5, 6))    
+print(sumas(2, 4, 5, 6, 8, 5))    
 
